@@ -1,0 +1,1130 @@
+@import "bourbon"
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+
+body
+    margin: 0
+    background-image: url('../img/bg.png')
+    
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+//Стили для Хидера
+header
+    height: 45px;
+    background-color: #242424;
+    margin: 0
+    padding: 0
+    .container
+        display: flex
+    
+.container
+    margin-right: auto
+    margin-left: auto
+    padding-left: 15px
+    padding-right: 15px
+    .logo
+        color: #57c5a0
+        font-family: STHeitiSC
+        font-size: 26px
+        font-weight: 500
+        line-height: 25px
+        text-transform: uppercase
+        p
+            margin: 0
+            padding-top: 8px
+        
+    .icon
+        width: 70%
+        box-shadow: 1px 0 0  rgba(255, 255, 255, 0.35)
+        padding-right: 30px
+        padding-top: 8px
+        text-align: right
+        font-size: 16px
+        color: #7e7e7e
+    .login
+        padding-left: 30px
+        color: #7e7e7e
+        font-family: roboto
+        font-size: 11px
+        font-weight: 400
+        line-height: 25px
+//Стили для Меню
+.menu
+    background-color: white
+    .start
+        box-shadow: 1px 0 0 #eee, inset 1px 0 0 #eee
+    .container
+        display: flex
+        .icon
+            width: 418px
+            padding-top: 15px
+            padding-right: 10px
+            font-size: 18px
+            color: #6e6e6e
+        .icon2
+            height: 60px
+            box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2)
+            p
+                vertical-align: center
+                text-align: center
+                padding-bottom: 2px
+                color: white
+                font-family: roboto
+                font-size: 12px
+                font-weight: 700
+                line-height: 25px
+                margin-right: 40px
+                margin-top: 17px
+                width: 20px
+                height: 20px
+                background-color: #adadad
+                border-radius: 4px
+        .icon3
+            padding-right: 5px
+            padding-left: 30px
+            padding-top: 15px
+            font-size: 18px
+            color: #6e6e6e
+        .icon4
+            p
+                padding-bottom: 2px
+                margin-top: 17px
+                width: 20px
+                height: 20px
+                text-align: center
+                margin-left: 5px
+                color: white
+                font-family: roboto
+                font-size: 12px
+                font-weight: 700
+                background-color: #57c5a0
+                border-radius: 4px
+.navbar ul
+    margin-bottom: 0
+    padding-left: 0
+    display: flex
+    margin-top: 0
+    padding-top: 0
+.navbar ul li
+    list-style-type: none
+    text-align: left
+    padding-right: 20px
+    padding-top: 15px
+    height: 45px
+    box-shadow: 1px 0 0 #eee
+    a
+        padding-left: 30px
+        list-style-type: none
+        text-decoration: none
+        color: #242424
+        font-family: Roboto
+        font-size: 16px
+        font-weight: 400
+        line-height: 25px
+//Стили для секции Top
+.top
+    background-color: black
+    background-repeat: repeat
+    background-image: url('../img/img bg.png')
+    width: 1980px
+    height: 460px
+    .bg
+        background-position: 25% 75% 
+        background-repeat: no-repeat
+        background-image: url('../img/top_bg.png')
+        height: 460px
+        .container
+            display: flex
+            .col
+                width: 48%
+                .price
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 100px
+                        width: 50px
+                        height: 13px
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .desc
+                    margin-top: 10px
+                    span
+                        color: #242424
+                        font-family: roboto
+                        font-size: 40px
+                        font-weight: 300
+                        line-height: 40px
+                    p
+                        margin-top: 5px
+                        color: #242424
+                        font-family: roboto
+                        font-size: 20px
+                        font-weight: 300
+                        line-height: 25px
+                        
+                        
+                .action_menu
+                    display: flex
+                    .view
+                        width: 40px
+                        height: 40px
+                        background-color: rgba(255, 255, 255, 0.8)
+                        i
+                            color: #6e6e6e
+                            padding-top: 12px
+                            padding-left: 12px
+                    .star
+                        margin-left: 5px
+                        width: 40px
+                        height: 40px
+                        background-color: rgba(255, 255, 255, 0.8)
+                        i
+                            color: #6e6e6e
+                            padding-top: 12px
+                            padding-left: 12px
+                    .share
+                        margin-left: 5px
+                        width: 40px
+                        height: 40px
+                        background-color: rgba(255, 255, 255, 0.8)
+                        i
+                            color: #6e6e6e
+                            padding-top: 12px
+                            padding-left: 12px
+                    .buy
+                        margin-left: 5px
+                        width: 40px
+                        height: 40px
+                        background-color: rgba(255, 255, 255, 0.8)
+                        i
+                            color: #57c5a0
+                            padding-top: 12px
+                            padding-left: 12px
+//Стили для секции Shoes
+.shoes
+    .shoes_bg
+        height: 90px
+        background-color: #2e2e2e
+        .container
+            position: relative
+            .items
+                display: flex
+                position: absolute
+                .item
+                    margin-top: 25px
+                    margin-left: 135px
+                    span
+                        opacity: 0.5
+                        color: white
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+                    p
+                        margin-top: 0
+                        opacity: 0.5
+                        color: #adadad
+                        font-family: roboto
+                        font-size: 12px
+                        font-weight: 400
+                        line-height: 25px
+                .item_active
+                    margin-top: 25px
+                    margin-left: 80px
+                    span
+                        color: white
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+                    p
+                        margin-top: 0
+                        color: #adadad
+                        font-family: roboto
+                        font-size: 12px
+                        font-weight: 400
+                        line-height: 25px
+                        
+            .hr
+                width: 1170px
+                margin-top: 5px
+                position: absolute
+                display: flex
+                height: 10px
+                background-color: black
+                .hr_active
+                    margin-top: 2px
+                    margin-left: 10px
+                    width: 225px
+                    height: 6px
+                    background-color: #57c5a0
+                .divider
+                    margin-top: 2px
+                    margin-left: 10px
+                    width: 2px
+                    height: 6px
+                    background-color: #2e2e2e
+                .divider2
+                    margin-top: 2px
+                    margin-left: 225px
+                    width: 2px
+                    height: 6px
+                    background-color: #2e2e2e
+                .divider3
+                    margin-top: 2px
+                    margin-left: 225px
+                    width: 2px
+                    height: 6px
+                    background-color: #2e2e2e
+                .divider4
+                    margin-top: 2px
+                    margin-left: 225px
+                    width: 2px
+                    height: 6px
+                    background-color: #2e2e2e
+                    
+//Стили для Секции Specials
+
+.specials
+    background-color: #242424
+    height: 230px
+    .special_offers
+        display: flex
+        .item_offers1
+            margin-left: 20px
+            width: 300px
+            height: 180px
+            background-image: url('../img/onsaleimg.png')
+            margin-top: 25px
+            .text_offer
+                margin-top: 55px
+                margin-left: 60px
+                width: 180px
+                height: 60px
+                background-color: rgba(36, 36, 36, 0.9)
+            p
+                text-align: center
+                margin: 0
+                color: white
+                font-family: roboto
+                font-size: 25px
+                font-weight: 300
+                line-height: 60px
+                text-transform: uppercase
+                
+        .item_offers2
+            margin-left: 120px
+            width: 300px
+            height: 180px
+            background-image: url('../img/specialoffersimg.png')
+            margin-top: 25px
+            .text_offer
+                margin-top: 55px
+                margin-left: 40px
+                width: 230px
+                height: 60px
+                background-color: rgba(36, 36, 36, 0.9)
+            p
+                text-align: center
+                margin: 0
+                color: white
+                font-family: roboto
+                font-size: 25px
+                font-weight: 300
+                line-height: 60px
+                text-transform: uppercase
+                
+        .item_offers3
+            margin-left: 120px
+            width: 300px
+            height: 180px
+            background-image: url('../img/musthaveimg.png')
+            margin-top: 25px
+            .text_offer
+                margin-top: 55px
+                margin-left: 60px
+                width: 180px
+                height: 60px
+                background-color: rgba(36, 36, 36, 0.9)
+            p
+                text-align: center
+                margin: 0
+                color: white
+                font-family: roboto
+                font-size: 25px
+                font-weight: 300
+                line-height: 60px
+                text-transform: uppercase   
+//Стили для секции NewArrivals
+.newarrivals
+    height: 400px
+    .container
+        .arrivals    
+            display: flex  
+            .text_arr
+                p
+                    margin-top: 30px
+                    color: #242424
+                    font-family: roboto
+                    font-size: 25px
+                    font-weight: 300
+                    line-height: 60px        
+            .show_btn
+                width: 72%
+                text-align: right
+                button
+                    margin-top: 30px
+                    color: #bcb5a7
+                    font-family: roboto
+                    font-size: 14px
+                    font-weight: 700
+                    line-height: 25px
+                    width: 100px
+                    height: 30px
+                    background-color: #ebe7df
+                    border: 1px solid #bcb5a7
+        .arr_items  
+            display: flex
+            .first_item    
+                .wrap_img
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_img.png')
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        width: 50px
+                        height: 13px
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .text
+                    margin-top: 210px
+                    position: absolute
+                    width: 300px
+                    height: 49px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    p
+                        padding-top: 10px
+                        padding-left: 100px
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+            .second_item
+                margin-left: 430px
+                .wrap_img
+                    background-repeat: no-repeat
+                    background-position: 50%
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_2.png')
+                .onsale
+                    position: absolute
+                    margin-left: 225px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #242424
+                    p
+                        text-transform: uppercase
+                        padding-left: 3px
+                        padding-top: 23px
+                        margin-top: 0
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .text
+                    margin-top: 210px
+                    position: absolute
+                    width: 300px
+                    height: 49px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    p
+                        padding-top: 10px
+                        padding-left: 100px
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+            .third_item
+                margin-left: 430px
+                .wrap_img
+                    background-position: 50%
+                    background-repeat: no-repeat
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_img3.png')
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .text
+                    margin-top: 210px
+                    position: absolute
+                    width: 300px
+                    height: 49px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    p
+                        padding-top: 10px
+                        padding-left: 100px
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+                        
+//Стили для секции Best Sellers
+.bestsellers
+    height: 430px
+    .container
+        .arrivals    
+            display: flex  
+            .text_arr
+                p
+                    margin-top: 30px
+                    color: #242424
+                    font-family: roboto
+                    font-size: 25px
+                    font-weight: 300
+                    line-height: 60px        
+            .show_btn
+                width: 75%
+                text-align: right
+                button
+                    margin-top: 30px
+                    color: #bcb5a7
+                    font-family: roboto
+                    font-size: 14px
+                    font-weight: 700
+                    line-height: 25px
+                    width: 100px
+                    height: 30px
+                    background-color: #ebe7df
+                    border: 1px solid #bcb5a7
+        .arr_items  
+            display: flex
+            .first_item    
+                .wrap_img
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_img4.png')
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        width: 50px
+                        height: 13px
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .actions
+                    font-size: 18px
+                    padding-top: 10px
+                    padding-left: 120px
+                    width: 180px
+                    height: 39px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    position: absolute
+                    margin-top: 210px
+                    display: flex
+                    .view
+                        width: 16px
+                        height: 10px
+                        i
+                            color: #6e6e6e
+                    .star
+                        margin-left: 25px
+                        width: 16px
+                        height: 10px
+                        i
+                            color: #6e6e6e
+                    .share
+                        margin-left: 25px
+                        width: 16px
+                        height: 10px
+                        i
+                            color: #6e6e6e
+                    .buy
+                        margin-left: 25px
+                        width: 16px
+                        height: 10px
+                        i
+                            color: #57c5a0
+
+            .second_item
+                margin-left: 430px
+                .wrap_img
+                    background-repeat: no-repeat
+                    background-position: 50%
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_img5.png')
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .text
+                    margin-top: 210px
+                    position: absolute
+                    width: 300px
+                    height: 49px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    p
+                        padding-top: 10px
+                        padding-left: 100px
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+            .third_item
+                margin-left: 430px
+                .wrap_img
+                    background-position: 55%
+                    background-repeat: no-repeat
+                    position: absolute
+                    background-color: white
+                    width: 300px
+                    height: 220px
+                    background-image: url('../img/item_img6.png')
+                .outstock
+                    position: absolute
+                    margin-left: 225px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #f27e4b
+                    p
+                        padding-top: 5px
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 15px
+                        text-transform: uppercase;    
+                .price
+                    z-index: 999
+                    position: absolute
+                    margin-left: 10px
+                    margin-top: 193px
+                    vertical-align: center
+                    text-align: center
+                    width: 68px
+                    height: 67px
+                    background-color: #57c5a0
+                    p
+                        padding-left: 8px
+                        padding-top: 25px
+                        margin-top: 0
+                        color: white
+                        font-family: roboto
+                        font-size: 13px
+                        font-weight: 700
+                        line-height: 25px
+                .text
+                    margin-top: 210px
+                    position: absolute
+                    width: 300px
+                    height: 49px
+                    background-color: white
+                    box-shadow: inset 0 1px 0 #ccc
+                    p
+                        padding-top: 10px
+                        padding-left: 100px
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 25px
+//Стили для секции addon
+.addon
+    height: 230px
+    .container
+        .info
+            display: flex
+            .col2
+                width: 50%
+                .blognews
+                    padding-left: 15px
+                    margin-top: 20px
+                    width: 445px
+                    height: 185px
+                    background-color: rgba(0, 0, 0, 0.05)
+                    .news1
+                        display: flex
+                        .newsicon
+                            margin-top: 60px
+                            width: 36px
+                            height: 36px
+                            margin-right: 0
+                            padding-right: 0
+                            p
+                                margin: 0
+                                padding-top: 5px
+                                text-align: center
+                                width: 36px
+                                height: 31px
+                                background-color: #57c5a0
+                                color: white
+                                font-family: roboto
+                                font-weight: 700
+                                line-height: 12px
+                                font-size: 13px
+                                strong
+                                    font-size: 10px
+                                    text-transform: uppercase
+                        .text
+                            margin-top: 60px
+                            float: left
+                            margin-left: 15px
+                            p
+                                margin: 0
+                                color: #242424;
+                                font-family: roboto
+                                line-height: 16px
+                                font-size: 12px
+                                font-weight: 400
+                                strong
+                                    font-size: 14px
+                                    font-weight: 700
+                    .news2
+                        display: flex
+                        .newsicon
+                            margin-top: 20px
+                            width: 36px
+                            height: 36px
+                            margin-right: 0
+                            padding-right: 0
+                            p
+                                margin: 0
+                                padding-top: 5px
+                                text-align: center
+                                width: 36px
+                                height: 31px
+                                background-color: #57c5a0
+                                color: white
+                                font-family: roboto
+                                font-weight: 700
+                                line-height: 12px
+                                font-size: 13px
+                                strong
+                                    font-size: 10px
+                                    text-transform: uppercase
+                        .text
+                            margin-top: 20px
+                            float: left
+                            margin-left: 15px
+                            p
+                                margin: 0
+                                color: #242424;
+                                font-family: roboto
+                                line-height: 16px
+                                font-size: 12px
+                                font-weight: 400
+                                strong
+                                    font-size: 14px
+                                    font-weight: 700                
+                                
+                    span
+                        margin-top: 10px
+                        position: absolute
+                        color: #242424
+                        font-family: roboto
+                        font-size: 14px
+                        font-weight: 700
+                        line-height: 40px
+                        text-transform: uppercase
+            .col
+                width: 38%
+                .freeshipping
+                    margin-top: 20px
+                    padding-top: 10px
+                    padding-left: 15px
+                    text-align: left
+                    width: 205px
+                    height: 175px
+                    background-color: rgba(0, 0, 0, 0.05)
+                    span
+                        margin: 0
+                        padding: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 14px
+                        font-weight: 700
+                        line-height: 40px
+                        text-transform: uppercase
+                    p
+                        padding: 0
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 12px
+                        font-weight: 400
+                        line-height: 16px                        
+                .testimonials
+                    padding-left: 15px
+                    margin-top: 20px
+                    width: 205px
+                    height: 185px
+                    background-color: rgba(0, 0, 0, 0.05)
+                    span
+                        margin: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 14px
+                        font-weight: 700
+                        line-height: 40px
+                        text-transform: uppercase
+                    p
+                        margin: 0
+                        padding: 0
+                        color: #242424
+                        font-family: roboto
+                        font-size: 12px
+                        line-height: 16px 
+                    author
+                        font-style: italic
+                        
+        .divider
+            width: 1100px
+            height: 1px
+            background-color: #bcb5a7
+//Стили для секции prefooter
+.prefooter
+    height: 420px
+    background-color: #242424
+    .divider
+        margin-top: 40px
+        margin-bottom: 40px
+        height: 1px
+        background-color: #1c1c1c
+    .container
+        display: flex
+        .socials
+            margin-left: 31%
+            display: flex
+            .facebook
+                width: 36px
+                height: 40px
+                background-color: #2e2e2e
+                i
+                    padding-left: 13px
+                    padding-top: 12px
+                    position: absolute
+                    font-size: 18px
+                    color: #7d7d7d
+            .twitter
+                margin-left: 10px
+                width: 36px
+                height: 40px
+                background-color: #2e2e2e
+                i
+                    padding-left: 11px
+                    padding-top: 12px
+                    position: absolute
+                    font-size: 18px
+                    color: #7d7d7d
+            .gplus
+                margin-left: 10px
+                width: 36px
+                height: 40px
+                background-color: #2e2e2e
+                i
+                    padding-left: 8px
+                    padding-top: 12px
+                    position: absolute
+                    font-size: 18px
+                    color: #7d7d7d
+            .linkedin
+                margin-left: 10px
+                width: 36px
+                height: 40px
+                background-color: #2e2e2e
+                i
+                    padding-left: 12px
+                    padding-top: 12px
+                    position: absolute
+                    font-size: 18px
+                    color: #7d7d7d
+            .flickr
+                margin-left: 10px
+                width: 36px
+                height: 40px
+                background-color: #2e2e2e
+                i
+                    padding-left: 12px
+                    padding-top: 12px
+                    position: absolute
+                    font-size: 18px
+                    color: #7d7d7d
+                
+        form
+            margin-left: 100px
+            display: flex
+            input
+                text-align: center
+                color: #7d7d7d
+                font-family: Aller
+                font-size: 12px
+                font-style: italic
+                line-height: 18px
+                width: 250px
+                height: 36px
+                background-color: #2e2e2e
+                border: 1px solid #2e2e2e
+            button
+                p
+                border: 1px solid #7d7d7d
+                width: 36px
+                height: 40px
+                background-color: #7d7d7d
+                img
+                    color: #2e2e2e;
+                
+        .widgets
+            display: flex
+            .text_widget
+                margin-left: 100px
+                margin-top: 50px
+                span
+                    text-transform: uppercase
+                    color: #7d7d7d
+                    font-family: roboto
+                    font-size: 14px
+                    font-weight: 400
+                    line-height: 18px
+                p
+                    margin: 0
+                    margin-top: 8px
+                    color: #a4a4a4
+                    font-family: Aller
+                    font-size: 12px
+                    font-style: italic
+                    line-height: 18px
+
+            .twitter_widget
+                margin-left: 60px
+                margin-top: 50px
+                span
+                    text-transform: uppercase
+                    color: #7d7d7d;
+                    font-family: roboto
+                    font-size: 14px
+                    font-weight: 400
+                    line-height: 18px
+                p
+                    
+                    margin: 0
+                    margin-top: 8px
+                    color: #a4a4a4
+                    font-family: roboto
+                    font-size: 12px
+                    font-style: italic
+                    line-height: 18px
+                    strong
+
+                        color: #57c5a0
+                        font-family: roboto
+                        font-size: 12px
+                        font-style: italic
+                        line-height: 18px    
+                    b
+                        color: #c4c5bf
+                        font-family: roboto
+                        font-size: 12px
+                        font-style: italic
+                        line-height: 18px
+                        
+            .flickr_widget
+                margin-left: 60px
+                margin-top: 50px
+                span
+                    padding-left: 5px
+                    text-transform: uppercase
+                    color: #7d7d7d
+                    font-family: roboto
+                    font-size: 14px
+                    font-weight: 400
+                    line-height: 18px
+                .imgline1
+                    img
+                        padding-top: 10px
+                        padding-left: 5px
+                .imgline2
+                    img
+                        padding-left: 5px
+                        padding-top: 5px
+                        
+//Стили для Footer
+footer
+    height: 90px
+    background-color: #2e2e2e
+    .container
+        display: flex
+        p
+            margin: 0
+            padding-top: 25px
+            opacity: 0.5
+            color: white
+            font-family: roboto
+            font-size: 12px
+            font-weight: 400
+            line-height: 18px
+        ul
+            margin-left: 55%
+            padding-top: 10px
+            display: flex
+            list-style-type: none
+            li
+                a
+                    text-decoration: none
+                    opacity: 0.5
+                    color: white
+                    font-family: roboto
+                    font-size: 12px
+                    font-weight: 400
+                    line-height: 25px
+@import "media" // Всегда в конце
